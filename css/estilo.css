@@ -1,0 +1,151 @@
+body {
+    background-image: url(../imagen/fondo/23178.jpg);
+}
+
+.colorPunto {
+    background-color: #ffffff;
+}
+
+.busqueda {
+
+    color: #4d789e;
+    font-size: 20px;
+}
+
+
+.busqueda:hover {
+
+    color: #243f5e;
+    font-size: 18px;
+
+}
+
+.btn {
+    color: #4d789e;
+}
+
+.titulo {
+
+    display: flex;
+    font-size: 50px;
+    text-align: start;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #243f5e;
+    padding: 30px;
+}
+
+.titulo:hover {
+
+    display: flex;
+    font-size: 49px;
+    text-align: start;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #07284e;
+    padding: 30px;
+
+}
+
+.carrusel {
+    height: 550px;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    border-radius: 45px;
+}
+
+
+.boton-uno {
+    font-size: 20px;
+}
+
+
+.pie {
+    background-color: #ffffff;
+}
+
+.derechos {
+    color: #243f5e;
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.palabrasFooter {
+    color: #ffffff;
+    font-size: 20px;
+    border-radius: 15px;
+    background-color: #2077c4;
+    text-align: center;
+}
+
+.palabrasFooter:hover {
+
+    color: #243f5e;
+    background-color: #ffffff;
+
+}
+
+.trabajemos {
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    color: white;
+    padding: 50px;
+    border-radius: 45px;
+}
+
+
+.galeriaImagen {
+    width: 100%;
+    height: 2500px;
+
+}
+
+.galeriaImagen:hover {
+    width: 410px;
+    height: 410px;
+    
+}
+
+.carta {
+    background-color: #ffffff;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4d789e;
+    font-weight:700
+}
+
+
+.linkFooter {
+    color: #2077c4;
+    font-size: 17px;
+    margin-left: 120px;
+}
+
+.linkFooter:hover {
+    color: white;
+    border-radius: 10px;
+    background-color: #2077c4;
+}
+
+.slogan {
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    font-weight: 300;
+    margin: 15px;
+}
+
+.nosotrosImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    border-radius: 45px;
+
+}
