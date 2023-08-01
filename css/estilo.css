@@ -202,7 +202,6 @@ body {
     background-color: #07284e;
     font-size: 15px;
     color: #ffffff;
-    margin-left: 314px;
     border-radius: 20px;
     transition: 0.2;
 }
@@ -211,6 +210,14 @@ body {
     background-color: #ffffff;
     border-radius: 15px;
     color: #07284e;
+}
+
+@media screen and (max-width: 600px) {
+    .botun {
+        font-size: 14px;
+        padding: auto;
+        margin: auto;
+    }
 }
 
 
