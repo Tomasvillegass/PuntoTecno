@@ -77,6 +77,48 @@ body {
     }
 }
 
+.tituloPc {
+    color: #243f5e;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.parrafoPc {
+    color: #243f5e;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.carruselProd {
+    border-radius: 300px;
+}
+
+.tituloProd {
+    background-color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    color: #375f8d;
+    padding: 15px;
+    border-radius: 45px;
+    margin-top: 85px;
+}
+
+.carruselDos {
+    height: 550px;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 500px;
+    border-radius: 450px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+
 
 .boton-uno {
     font-size: 20px;
@@ -173,7 +215,7 @@ body {
 
 .slogan {
     text-align: center;
-    font-size: 20px;
+    font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
     color: #ffffff;
     font-weight: 300;
@@ -232,9 +274,9 @@ ul li {
     height: 30px;
 }
 
-/* Media query para pantallas más pequeñas */
+
 @media (max-width: 768px) {
     .footer-section {
-        width: 100%; /* El footer ocupará todo el ancho disponible */
+        width: 100%; 
     }
 }
