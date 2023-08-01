@@ -280,3 +280,131 @@ ul li {
         width: 100%; 
     }
 }
+
+/*  CONTACTANOS */
+
+.formulario {
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px;
+    border-radius: 5px;
+    margin-top: 250px;
+    margin-bottom: 300px;
+}
+
+.tituloForm {
+    color: #ffffff;
+    font-size: 45px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+.gmail {
+    color: #ffffff;
+}
+
+.completo {
+    color: #ffffff;
+}
+
+.opcional {
+    color: #ffffff;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px ;
+    border-radius: 3px;
+    box-sizing: border-box;
+    
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.enviar {
+    background-color: #07284e;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    color: #ffffff;
+    transition: 0.2s;
+}
+
+.enviar:hover {
+    background-color: #ffffff;
+    color: #07284e;
+    border-radius: 10px;
+
+}
+
+@media (max-width: 600px) {
+    .contact-form {
+        max-width: 100%;
+    }
+}
+
+/* CARTAS PRODUCTOS */
+
+.product-card {
+    overflow: hidden;
+    background-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #07284e;
+    width: 300px;
+    padding: 20px;
+    border: 1px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-left: 180px;
+    display: inline-block;
+    transition: 0.2s;
+}
+
+.product-card:hover {
+    background-color: #07284e;
+    color: #ffffff;
+}
+
+h6 {
+    margin-bottom: 10px;
+}
+
+.price {
+    font-weight: bold;
+}
+
+.buy-button {
+    background-color: #07284e;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+    transition: 0.2s;
+}
+
+.buy-button:hover {
+    background-color: #ffffff;
+    color: #07284e;
+}
