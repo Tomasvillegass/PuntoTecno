@@ -208,8 +208,9 @@ body {
 }
 
 .botun:hover {
-    background-color: #375f8d;
+    background-color: #ffffff;
     border-radius: 15px;
+    color: #07284e;
 }
 
 
